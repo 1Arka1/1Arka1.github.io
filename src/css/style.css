@@ -1,3 +1,6 @@
+body {
+    font-family: Arial, sans-serif;
+}
 header{
     background-color: rgba(4, 11, 30, 1);
     width: 100%;
@@ -93,10 +96,89 @@ header{
     background-color: rgba(255, 255, 255, 0.2);
 }
 .skills {
-    display: none;
+    text-align: center;
+    float: left;
+    width: 100%;
+    height: 400px;
+}
+.heading3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.skills1234>div {
+    float: left;
+    margin: 100px 0px 0px 100px;
+    line-height: 20px;
+    height: 180px;
+    width: 250px;
+    box-shadow: 0px 0px 10px rgba(84, 200, 243, 1);
+}
+.subtitle_veb {
+    font-size: 17px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.text_veb {
+    margin-top: 20px;
+    font-size: 13px;
+}
+.skills1234 img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
 }
 .cases {
-    display: none;
+    text-align: center;
+    float: left;
+    width: 100%;
+    height: 650px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(39, 124, 209, 0.5) 15%, rgba(0, 184, 201, 1) 30%, rgba(0, 234, 125, 1) 50%, rgba(0, 184, 201, 1) 70%, rgba(39, 124, 209, 0.5) 85%, rgba(255, 255, 255, 1) 100%);
+}
+.name_project {
+    float: left;
+    line-height: 17px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.name_p {
+    font-size: 17px;
+}
+.project_description{
+    margin-top: 20px;
+}
+.website_company {
+    margin-top: 8px;
+}
+.cases img {
+    height: 400px;
+    width: 650px;
+    margin-top: 20px;
+}
+.all_about_company {
+    float: left;
+    margin-left: 432px;
+    line-height: 20px;
+    text-align: start;
+    margin-top: 20px;
+}
+.heading4 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.subtatle_cases {
+    font-size: 15px;
+    margin-top: 12px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.visi_live_site {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+.visi_live_site input {
+    margin-right: 550px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 .calculator {
     height: 400px;
@@ -126,10 +208,55 @@ header{
     width: 300px;
 }
 .statistics {
-    display: none;
+    float: left;
+    width: 100%;
+    border: 1px solid #000;
+    background-image: url(../img/statistics.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+}
+.heading6 {
+    text-align: center;
+    margin-top: 18px;
+    font-size: 25px;
+    -webkit-text-stroke: 0.1px #000;
+    color: aliceblue;
+}
+.statiatics_img>div{
+    float: left;
+    text-align: center;
+    margin: 200px 0px 0px 170px;
+    line-height: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 120px;
+    width: 170px;
+}
+.statiatics_img img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+.statiatics_img {
+    border: 1px solid #000;
+    height: 555px;
 }
 .reviews {
-    display: none;
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+}
+.reviws_about_site {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.reviews img {
+    margin-top: 20px;
+    height: 300px;
+    width: auto;
+    box-shadow: 0px 0px 40px #000;
 }
 .contacts {
     text-align: center;
@@ -178,7 +305,14 @@ header{
     border: 1px solid #000;
 }
 .map {
-    display: none;
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    height: 160px;
+    overflow: hidden;
+}
+.map img {
+    width: 100%;
 }
 .Copyright {
     text-align: center;
